@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TerraText\\TerraText.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TerraText\\TerraText.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TerraText\\TerraText.csproj",
+        "projectName": "TerraText",
+        "projectPath": "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TerraText\\TerraText.csproj",
+        "packagesPath": "C:\\Users\\detom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TerraText\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\detom\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TextGL\\TextGL.csproj": {
+                "projectPath": "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TextGL\\TextGL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TextGL\\TextGL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TextGL\\TextGL.csproj",
+        "projectName": "TextGL",
+        "projectPath": "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TextGL\\TextGL.csproj",
+        "packagesPath": "C:\\Users\\detom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\detom\\Documents\\Synced Documents\\Projects\\Programming\\C#\\TerraText\\TextGL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\detom\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
