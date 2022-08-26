@@ -37,5 +37,6 @@ but in the end I never looked enough into it.
 > It might even not have any.  
 
 Joking aside, I'm no expert, this was just something I made for fun.  
-I shared this because I wanted to improve, to understand my mistakes with people.
+I shared this because I wanted to improve, to understand my mistakes with people.  
 So, feel free to suggest and contribute as I'm always interested in learning.  
+The project's name is a reference to Terravision.  
