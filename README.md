@@ -25,7 +25,7 @@ Infact, this program also renders and displays the insides of a model (which wou
 
 ## Performance
 The performance is obviously horrible, I tried to do the job of hundreds of slow workers with a single fast worker, meaning that these are usually operations optimized for the GPU, not the CPU.
-Also, while I tried to write the code as cleanly as possible, I'm sure things can be optimized further.
+Also, while I tried to write good code, I'm sure things can be further optimized to reach a better performance even on CPU.
 
 ## Epilogue
 The point of this project is not in the program itself, but rather on improving my knowledge and skills while also having fun.
