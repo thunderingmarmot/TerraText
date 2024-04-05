@@ -1,44 +1,32 @@
 # TerraText
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)  
-A C# program to render 3D objects to the terminal.
+A C# program to render 3D objects to the terminal
+> The name is a reference to [Terravision](https://en.wikipedia.org/wiki/Terravision_(computer_program)) as its original purpose was to render a spinning Earth inside the terminal.
+
+## Features (or rather unfeatures)
+- Shading and texturing is NOT supported
+- Only triangular-faced 3D models are supported
+- Only OBJ files can be loaded
+- Horrible performance
 
 ## Introduction
-This C# program allows to render a 3D object to the terminal output using TextGL.  
-TextGL is a graphics library that I made to achieve this purpose.  
-The ModelMaker class inside TextGL offers some built-in models to test with.  
-Though it should load any OBJ file that represents a triangle-faced 3D model.  
-**(Shading or texturing is NOT supported)**  
+This C# program allows **rendering a 3D object to the terminal output** using TextGL, a graphics library that I made to achieve this very purpose.
+TextGL also includes the ModelMaker class that offers some built-in models to test with, though **it should also be able to load any OBJ file that contains a triangular-faced 3D model**.
 
-## Why only triangles?
-A tridimensional shape is usually represented by lots of triangles covering the shape's surface.  
-The number of triangles used to cover its shape is directly proportional to the quality of the model.  
-(More triangles == More fidelity to the original shape)  
-Sometimes, though, a 3D model can be represented with squares instead of triangles.  
-My graphics library simply doesn't support square-faced 3D models as I was making this just for fun.  
-Anyway any square-faced 3D model can be converted to its triangle-faced counterpart using Blender.  
+## Triangular-faced 3D models
+A tridimensional shape is usually represented by lots of triangles covering the shape's surface and the number of those is directly proportional to the quality of the model.
+Sometimes, though, a 3D model can also be represented using other polygons (like squares), my library simply doesn't support them as I was making this just for fun.
+Anyway, any non-triangular-faced 3D model can be converted to its triangular-faced counterpart using Blender.
 
-## Why no shading or texturing?
-Texturing shouldn't be that hard to implement, but I just don't have any more time for this project.  
-Shading, instead, is very hard to implement because it also brings the visibility problem.  
-This program renders everything as a white block so you can't determine what's in front of what.  
-Technically, though, even the insides of the model are being rendered, which would be a bad thing.  
-Shading must be implemented only after solving this problem, a problem that I never tried to solve  
-as I didn't want this to become too much of a hassle, so no shading.  
+## Shading and Texturing
+Again, I was making this just for fun and to learn the basics of 3D rendering and rasterizing.
+Though, while texturing shouldn't be that hard to implement, shading requires implementing one of the solutions to the [visibility problem](https://en.wikipedia.org/wiki/Visibility_(geometry)).
+Infact, this program also renders and displays the insides of a model (which would be a bad thing), though since everything has a white texture, you can't really determine what's in front of what.
 
 ## Performance
-Tremendously horrible.  
-Everything is ran on the CPU, this makes it generally slow and even slower with complex models.  
-The code could surely be more optimized, since I made this without caring about performance.  
-I was trying to understand how to use the GPU to accelerate everything,  
-but in the end I never looked enough into it.  
+The performance is obviously horrible, I tried to do the job of hundreds of slow workers with a single fast worker, meaning that these are usually operations optimized for the GPU, not the CPU.
+Also, while I tried to write the code as cleanly as possible, I'm sure things can be optimized further.
 
-## Other informations
-> So, what's its use? Well, I don't know!  
-> I made it, but you'll have to find a use for it.  
-> It might even not have any.  
-
-Joking aside, I'm no expert, this was just something I made for fun.  
-I shared this because I wanted to improve, to understand my mistakes with people.  
-So, feel free to suggest and contribute as I'm always interested in learning.  
-The project's name is a reference to Terravision as its original purpose was  
-to make a spinning Earth inside the terminal.  
+## Epilogue
+The point of this project is not in the program itself, but rather on improving my knowledge and skills while also having fun.
+So feel free to start a discussion, suggest and contribute to the project or just leaving a feedback.
